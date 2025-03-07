@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap'); /* Import Inter Tight */
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-inter-tight: "Inter Tight", sans-serif; /* Store Inter Tight variable */
+  --font-bethany: "Bethany Elingston", serif; /* Store Bethany Elingston variable */
+
+  /* 🎨 Custom Colors */
+  --corporate-black: #01141B;
+  --sky-blue: #E8F4F9;
+  --lightish-blue: #0FA7E4;
+  --grey: #A6ADB0; /* ✅ Added Custom Grey Color */
+}
+
+/* ✅ Load Custom Font from Public Folder */
+@font-face {
+  font-family: "Bethany Elingston";
+  src: url("/font/Bethany Elingston.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @theme inline {
@@ -10,6 +27,30 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+/* 🎯 Custom Tailwind Utility Classes */
+@layer utilities {
+  .font-interTight {
+    font-family: var(--font-inter-tight); /* Reusable Inter Tight class */
+  }
+
+  .font-bethany {
+    font-family: var(--font-bethany); /* Reusable Bethany Elingston class */
+  }
+
+  /* 🎨 Custom Colors */
+  .text-corporateBlack { color: var(--corporate-black); }
+  .bg-corporateBlack { background-color: var(--corporate-black); }
+
+  .text-skyBlue { color: var(--sky-blue); }
+  .bg-skyBlue { background-color: var(--sky-blue); }
+
+  .text-lightishBlue { color: var(--lightish-blue); }
+  .bg-lightishBlue { background-color: var(--lightish-blue); }
+
+  .text-grey { color: var(--grey); } /* ✅ Custom Grey Text */
+  .bg-grey { background-color: var(--grey); } /* ✅ Custom Grey Background */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +63,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
