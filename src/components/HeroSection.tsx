@@ -3,7 +3,7 @@ import Button from "./ui/Button"
 
 const HeroSection = () => {
   return (
-    <div className='bg-skyBlue h-[580px] relative rounded-[50px] mx-10 mb-14 border-2'>
+    <div className='bg-skyBlue h-[580px] relative rounded-[50px] mx-10 mb-14 '>
      
      {/* boy image */}
       <div className="h-[260px] w-[260px] absolute left-[70px] top-[30px] z-10 ">
@@ -16,8 +16,8 @@ const HeroSection = () => {
       </div>
 
       {/* content in the middle */}
-      <div className="text-corporateBlack h-[400px] w-[650px] absolute top-[70px] left-1/2 transform -translate-x-1/2  flex flex-col gap-4 items-center justify-center ">
-        <h1 className="font-bethany text-[45px] w-[475px] text-center ">Speak clearly <br/> without accent barriers</h1>
+      <div className="text-corporateBlack h-[400px] w-[700px] absolute top-[70px] left-1/2 transform -translate-x-1/2  flex flex-col gap-4 items-center justify-center">
+        <h1 className="font-bethany text-[50px] w-[550px] text-center ">Speak clearly <br/> without accent barriers</h1>
         <p className="font-interTight w-[300px] text-center ">Refine your accent and speak with confidence. Start your journey to clear communication today by booking your call. </p>
         <Button className="text-white bg-lightishBlue my-6 h-[55px] w-[320px] rounded-[50px]">
           Schedule a Free Consultation

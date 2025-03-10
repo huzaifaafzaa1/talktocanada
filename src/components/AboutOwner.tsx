@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const AboutOwner = () => {
   return (
-    <div className="AboutOwner mx-10  flex gap-8 mb-14  border-2">
+    <div className="AboutOwner mx-10  flex gap-8 mb-14  ">
         <div className="h-[400px] w-[350px] ">
             <Image src="/images/man.svg" className="!h-[400px]" alt="" height={400} width={350}/>
         </div>

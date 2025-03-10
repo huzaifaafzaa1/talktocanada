@@ -11,7 +11,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className=" p-5 flex justify-between items-center font-interTight mx-16 border-2  ">
+    <nav className=" p-5 flex justify-between items-center font-interTight mx-16 ">
       {/* Logo */}
       <div className="w-[200px]  h-[36.2px] mx-3">
         <Image src="/logo/websitelogo.svg" alt="logo" width={200} height={36.2} />

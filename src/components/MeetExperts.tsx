@@ -1,15 +1,15 @@
-
+import AvatarGroup from "./ui/AvatarGroup";
 
 const MeetExperts = () => {
   return (
-    <div className="MeetExperts mx-10 mb-14  border-2">
-      <p className="font-interTight text-corporateBlack text-[45px]">
+    <div className="MeetExperts mx-10 mb-14  ">
+      <p className="font-interTight text-corporateBlack text-[50px] my-2">
         Expert Teachers ready to help you <br />
         speak clearly and confidently.
       </p>
-      <div>
-         Avatar
-      </div>
+      <div className="flex items-center ">
+      <AvatarGroup />
+    </div>
     </div>
   );
 };
