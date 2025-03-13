@@ -6,7 +6,7 @@ const Footer = () => {
     ];
   
     return (
-      <div className="flex justify-between font-interTight p-4 text-[13px] ">
+      <div className="mx-10 flex justify-between font-interTight p-4 text-[13px] ">
         <ul className="flex gap-3 text-corporateBlack">
           {footerLinks.map((item, index) => (
             <li key={index} className="border-b">{item}</li>
