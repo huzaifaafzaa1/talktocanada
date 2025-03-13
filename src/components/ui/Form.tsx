@@ -1,12 +1,17 @@
-"use client"
+"use client";
 
 import { useForm } from "react-hook-form";
 import Button from "./Button";
 
-const Form = () => {
-  const { register, handleSubmit } = useForm();
+interface FormData {
+  fullName: string;
+  email: string;
+}
 
-  const onSubmit = (data: any) => {
+const Form = () => {
+  const { register, handleSubmit } = useForm<FormData>();
+
+  const onSubmit = (data: FormData) => {
     console.log(data);
   };
 
