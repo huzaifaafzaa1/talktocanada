@@ -2,7 +2,7 @@ import AvatarGroup from "./ui/AvatarGroup";
 
 const MeetExperts = () => {
   return (
-    <div className="MeetExperts mx-10 mb-14  ">
+    <div className="MeetExperts mx-10 mb-24  ">
       <p className="font-interTight text-corporateBlack text-[50px] my-2">
         Expert Teachers ready to help you <br />
         speak clearly and confidently.

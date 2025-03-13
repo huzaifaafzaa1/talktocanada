@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const VideoSection = () => {
   return (
-    <div className="relative h-[700px] w-[1270px] flex justify-center items-center mx-10 mb-14">
+    <div className="relative h-[700px] w-[1270px] flex justify-center items-center mx-10 mb-24">
       <Image src="/images/laptopuser1.jpg" alt="laptop user" fill  className="h-[100%] w-[100%] rounded-[50px]"/>
       <div className="absolute border-2 border-white  h-[140px] w-[140px] rounded-[50%] flex justify-center items-center">
         <Image src="/illustrations/play.svg" alt="" height={50} width={50}/>
