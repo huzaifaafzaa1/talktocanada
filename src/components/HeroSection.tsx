@@ -16,12 +16,12 @@ const HeroSection = () => {
 
      {/* boy image */}
       <div className="h-[260px] w-[260px] absolute left-[70px] top-[30px] z-10 ">
-        <Image src="/images/boy.svg" alt="A young boy smiling" height={260} width={260}/>
+        <Image src="/images/boy.svg" alt="A young boy smiling" height={260} width={260} priority/>
       </div>
 
       {/* stars up image */}
       <div className="h-[270px] w-[290px] absolute left-[65px] top-[210px] ">
-        <Image src="/illustrations/stars.svg" alt="" height={270} width={290}/>
+        <Image src="/illustrations/stars.svg" alt="" height={270} width={290} priority/>
       </div>
 
       {/* content in the middle */}
@@ -35,17 +35,17 @@ const HeroSection = () => {
 
       {/* thumbs up image*/}
       <div className="h-[230px] w-[370px] absolute top-[40px] right-[100px] ">
-        <Image src="/illustrations/like.svg" alt="" height={230} width={370}/>
+        <Image src="/illustrations/like.svg" alt="" height={230} width={370} priority/>
       </div>
 
       {/* girl image */}
       <div className="h-[260px] w-[260px] absolute top-[246px] right-[70px] ">
-        <Image src="/images/girl.svg" alt="" height={260} width={260}/>
+        <Image src="/images/girl.svg" alt="" height={260} width={260} priority/>
       </div>
      
      {/* bubble image */}
      <div className="h-[85px] w-[100px] absolute top-[250px] right-[270px] ">
-      <Image src="/illustrations/bubble.svg" alt="" height={80} width={100}/>
+      <Image src="/illustrations/bubble.svg" alt="" height={80} width={100} priority/>
      </div>
 
     </div>
