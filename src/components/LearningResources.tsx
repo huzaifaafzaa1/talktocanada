@@ -19,7 +19,7 @@ const LearningResources = () => {
     },
   ];
   return (
-    <div className="LearningResources mx-10 mb-24 flex justify-between">
+    <div className="LearningResources mx-auto mt-28 max-w-[1270px] flex justify-between">
         <h1 className="font-interTight text-corporateBlack text-[50px] ml-2">Several<br/>learning tools</h1> 
         <div className="flex flex-col gap-6 ">
         {resources.map((resource, index) => (

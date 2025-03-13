@@ -21,7 +21,7 @@ const StatsSection = () => {
   ];
 
   return (
-    <div className="mx-10 mb-24 flex gap-9">
+    <div className="mx-auto mt-28 max-w-[1270px] flex gap-9">
       {stats.map((resource, index) => (
         <StatsCard
           key={index}

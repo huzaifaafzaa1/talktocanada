@@ -3,10 +3,10 @@ import Button from "./ui/Button"
 
 const HeroSection = () => {
   return (
-    <div className='relative bg-skyBlue h-[578px] rounded-[50px] mx-10 mb-24 '>
+    <div className='relative bg-skyBlue h-[578px] max-w-[1270px] rounded-[50px] mx-auto '>
 
      {/* this div is for inverted borders */}
-     <div className="absolute  bg-white rounded-tl-[60px] rounded-tr-[60px]  h-[120px] w-[600px] bottom-[-50px] left-[50%] translate-x-[-50%]  before:absolute before:content-['']  before:h-[70px] before:w-[100px] before:top-0 before:left-[-88px] before:rounded-br-[60px]  before:shadow-[1px_40px] before:shadow-white after:absolute after:content-[''] after:h-[70px] after:w-[100px] after:top-0 after:right-[-88px] after:rounded-bl-[60px] after:shadow-[-1px_30px] after:shadow-white">
+     <div className="absolute  bg-white rounded-tl-[60px] rounded-tr-[60px]  h-[70px] w-[600px] bottom-0 left-[50%] translate-x-[-50%]  before:absolute before:content-['']  before:h-[70px] before:w-[100px] before:top-0 before:left-[-88px] before:rounded-br-[60px]  before:shadow-[1px_40px] before:shadow-white after:absolute after:content-[''] after:h-[70px] after:w-[100px] after:top-0 after:right-[-88px] after:rounded-bl-[60px] after:shadow-[-1px_30px] after:shadow-white">
       <div className="my-3 flex justify-center items-center gap-10">
         <div className="h-[30px] w-[110px] flex justify-center items-center"><Image src="/logo/fidelity.svg" alt="" height={30} width={120}/></div>
         <div className="h-[50px] w-[140px] flex justify-center items-center"><Image src="/logo/UN.svg" alt="" height={50} width={160}/></div>

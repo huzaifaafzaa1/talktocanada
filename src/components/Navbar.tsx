@@ -4,14 +4,14 @@ import Button from "./ui/Button";
 import Link from "next/link";
 
 const navLinks = [
-  { name: "About", href: "/about" },
-  { name: "FAQ", href: "/faq" },
-  { name: "Contact", href: "/contact" },
+  { name: "About", href: "#about-owner" },
+  { name: "FAQ", href: "#video-section" },
+  { name: "Contact", href: "#ebook-download" },
 ];
 
 const Navbar = () => {
   return (
-    <nav className=" p-5 flex justify-between items-center font-interTight mx-16 ">
+    <nav className="mb-2 w-full p-5 flex justify-between items-center font-interTight sticky top-0 z-20 bg-white ">
       {/* Logo */}
       <div className="w-[200px]  h-[36.2px] mx-3">
         <Image src="/logo/websitelogo.svg" alt="logo" width={200} height={36.2} />
